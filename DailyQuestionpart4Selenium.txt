@@ -1,0 +1,61 @@
+1) What is Selenium? What are the different Selenium components? Explain about Selenium Webdriver.
+Ans:Selenium is tool to used for automate only webpage application,
+**Selenium has four major components –
+Selenium IDE
+Selenium RC,
+Selenium Web driver,
+Selenium GRID
+***Selenium WebDriver is a web framework that permits you to execute cross-browser tests
+WebDriver is used to download the driver of browsers exe file 
+webdriver is used for automating web-based application testing
+
+2) How does Selenium communicate with the Web browsers?
+Selenium Script creates an HTTP Request for each selenium command and sends it to the browser driver
+
+3.What are the locators available  to find an element using Selenium?
+ans:
+Id
+class
+name
+linktext
+partial link text
+tagName
+cs selector
+xpath
+these are locators available  to find an element using Selenium
+
+4. Why ID is preferable than X-Path?
+Compare with other xpath, Id is more unique 
+
+5.How to select value in dropdown?
+Using "selectByValue("String value");" to select value in dropdown
+
+6) What is the difference between Absolute xpath and Relative Path?
+Absolute xpath:
+*Absolute xpath is starting from root node
+*it starting with single forward slash(/)
+
+Relative Path:
+*relative xpath is starting from current node
+*It starts with the double forward slash (//),
+
+7) How to verify if the given check box is checked or not (it is not taught but you can explore) Try here: http://leafground.com/pages/checkbox.html
+WebElement checkbox = driver.findElement(By.id("checkboxId"));
+System.out.println("The checkbox is selection state is - " + checkbox.isSelected());
+
+8)Difference between System.setProperty and WebDriverManager
+System.setProperty :
+setProperty method is used to configure the browser driver path.
+
+WebDriverManager:
+WebDriverManager automates the browser setup in the Selenium code.
+
+9) Write the syntax for preceding and following x-paths.
+preceding :
+Xpath=//*[@type='submit']//preceding::input[1]
+
+following x-paths:
+ xpath=//*[@type='submit']//following-sibling::input
+
+10) How to get an attribute value using Selenium WebDriver?
+The getAttribute() method is used to obtain the value of an attribute in an html document

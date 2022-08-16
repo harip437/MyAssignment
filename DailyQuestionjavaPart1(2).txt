@@ -1,0 +1,70 @@
+
+       Answer All the Question
+1.Explain about the main method in java?
+Java main method is the entry point of any java program. 
+Its syntax is always "public static void main(String[] args)" 
+
+2.What are the different  Control flow Statements available in java?
+Java provides three types of control flow statements.
+    Decision Making statements
+        if statements
+        switch statement
+    Loop statements
+        do while loop
+        while loop
+        for loop
+        for-each loop
+    Jump statements
+        break statement
+        continue statement
+
+3.What is the Difference betweeen break and continue statements?
+ break statement:
+ break statement is used to break the current flow of the program 
+ The break statement cannot be used independently in the Java program, i.e., it can only be written inside the loop 
+
+continue statement:
+continue statement doesn't break the loop
+it skips the specific part of the loop and jumps to the next iteration of the loop immediately.
+
+4.What is an Array? How will you declare an array in java?
+Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value.
+its declare an array, define the variable type with square brackets: String[] cars
+
+5.When will you get ArrayIndexOutOfBoundsException?
+ArrayIndexOutOfBoundsException occurs when we access an array, or a Collection, 
+that is backed by an array with an invalid index.
+This means that the index is either less than zero or greater than or equal to the size of the array. 
+
+6.Define the Syntax to create an object for a class.What are the naming conventions to be followed while creating a class, 
+method and a variable.Explain with examoles?
+ans:
+The syntax for creating an object is: ClassName object = new ClassName();
+Java follows camel-case syntax for naming the class, interface, method, and variable
+eg:firstName
+
+
+7.What is Variable?How will you declare a variables in java?
+declaration:syntx:type variableName = value
+Variables are containers for storing data values. 
+int
+String
+float
+char
+double
+boolean
+
+8.What is String in java? Is it a Data Type?
+A String variable contains a collection of characters surrounded by double quotes
+yes its an Datatype
+
+9.What are the different ways to create the String Object in java?
+two ways
+String literal:
+String s=“how r you”;
+String keywords:
+String s=new String(“chennai”);
+
+10.What is the Difference between .Equals and ==? 
+== operator and . equals() method
+Both these == operators and equals() are used to compare objects to mark equality.
