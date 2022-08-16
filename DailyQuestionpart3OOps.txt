@@ -1,0 +1,67 @@
+1.What is oops stands for?
+Ans: oops stands for Object Oriented Programming language
+
+2.What is Polymorphism? explain types?
+Ans: Polymorphism means "many forms", and it occurs when we have many classes that are related to each other by inheritance.
+
+Types of polymorphism:There are two types of polymorphism
+*method overloading
+*method overriding
+
+3.what is interface and example in selenium,java?
+Ans:
+Interface is an blueprint of a class,
+its an unimplemented methods,
+its only can access public and default access modifier,
+it does not support {} brases
+example selenium:
+selenium webdriver
+example java: 
+whatever class we declared in the interface, we call that interface using implement thats known as java of interface
+
+4.what is abstarct class and example?
+Ans:
+abstract class is used to partially implemented method and unimplemented
+abstract class is used in future it can used to update in future 
+object is not used in abstract class
+
+example:
+selenium:driver.findelemet(By)
+
+java:
+private void payment{
+}//its function is used for later development in apropriate project
+
+5.Difference between multiple inheritance and multilevel inheritance
+Ans: 
+multiple inheritance:it does not used in java
+multiple inheritance does not allow class level its only in interface level,
+its occur amguity problem
+
+Ans:
+multilevel inheritance:its allow class level so used in java
+multilevel inheritance is used for Grandparent,parents,child
+
+
+6.Is multiple inheritance possible in java?
+Ans:No, Multiple inheritance is not possible in java
+
+7.What is keyword for using inheritance  
+Ans:"extends" keyword is used inheritance for connecting different classes and packages
+
+
+8.what is the keyword to connect interface and class
+Ans:implements the keyword to connect interface and class
+
+9.what is difference between class and interface
+Ans:class is a group of object which have common properities
+but In the interface is not possible to create object
+
+10.what is difference between class and abstract class
+Ans:
+class is a group of object
+its implemented methods
+
+Ans:
+object is not used in abstract class 
+its partially and unimplemented methods
